@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - El juego del calamar - Serie Netflix</title>
+    <link rel="stylesheet" href="./css/estilosglobales.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img width="150" src="./imgs/squidgamegeometric.png" alt="Logo Home"></a>
+            <a id="menu-seleccionado" href="./index.html">Home</a>
+            <a href="./sinopsis.html">Sinopsis</a>
+            <a href="./reparto.html">Reparto</a>
+            <a href="./produccion.html">Producción</a>
+            <a href="./curiosidades.html">Curiosidades</a>
+            <!-- la idea es que el menu hamburguesa al pasar el mouse por arriba o clickear aparezca la opcion de iniciar sesion, etc -->
+            <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#f40bc1">
+                <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+            </svg>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>
+            <img width="100%" src="./imgs/imgppalylogo-03.png" alt="imagen y logo">
+        </h1>
+        <section>
+            <article>
+                <!--Profe, dado que en la consigna se pedía article, decidí ubicarlo de esta forma aunque parecería quedar redundante ya que basandome en como diseñe mi estructura, con un section ya habría bastado,
+                pensé en ubicarlo en cada personaje dentro de reparto pero me sucedía lo mismo debido a la toma de decisiones en cuanto a mi estructura de diseño (sumado al poco contenido que tengo). Te aclaro esto porque se bien las diferencias entre uno y otro
+                y es que una section es un bloque temático del documento y sirve para dividir el contenido en partes logicas mientras que el article es para contenido independiente y autonomo que uno pueda sacarlo de la pagina
+                sin que pierda sentido el contenido global-->
+                <h2>SINOPSIS</h2>
+                <p>
+                    Un misterioso juego reúne a 456 personas desesperadas. Lo que empieza como inocentes competencias
+                    infantiles
+                    pronto se transforma en una pesadilla mortal, donde solo uno podrá reclamar los 45,600 millones de
+                    wones.
+                </p>
+                <a href="/sinopsis.html">
+                    <img class="botonvermas" src="./imgs/botonvermas-04.png" alt="ver mas">
+                </a>
+                <!-- MODIFICADO!! SE USA DIV EN LUGAR DE BR -->
+                <div>
+                    <img width="50%" src="./imgs/escalera-05.png" alt="escalera img">
+                </div>
+            </article>
+        </section>
+        <hr>
+
+        <section class="centrado">
+            <article>
+                <h2>REPARTO</h2>
+                <p>
+                    Bajo cada número hay un rostro marcado por la desesperación. Actores que transforman el miedo, la
+                    traición y
+                    la ambición en personajes inolvidables dentro del juego.
+                </p>
+
+                <!-- Separé las imagenes y les aplique el mismo estilo de rombo a todas-->
+                <div>
+                    <img class="foto-rombo" src="./imgs/personajes-06.png" alt="Participante 456">
+                    <img class="foto-rombo" src="./imgs/personajes-12.png" alt="Lider">
+                    <img class="foto-rombo" src="./imgs/personajes-13.png" alt="Participante 120">
+                </div>
+
+                <!-- MODIFICADO!! SE USA DIV EN LUGAR DE BR-->
+
+
+                <a href="/reparto.html">
+                    <img class="botonvermas" src="./imgs/botonvermas-04.png" alt="ver mas">
+                </a>
+            </article>
+        </section>
+        <hr>
+
+        <section class="derecho">
+
+            <article>
+                <h2>PRODUCCIÓN</h2>
+                <p>Con un diseño visual icónico y escenarios impactantes, la producción de El Juego del Calamar
+                    transformó
+                    simples juegos infantiles en un espectáculo televisivo que atrapó al mundo entero.
+                </p>
+                <a href="/produccion.html">
+                    <img class="botonvermas" src="./imgs/botonvermas-04.png" alt="ver mas">
+                </a>
+                <!-- MODIFICADO!! SE USA DIV EN LUGAR DE BR-->
+                <div>
+                    <img width="50%" src="./imgs/squidproduccion.jpg" alt="producción">
+                </div>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="centrado">
+            <article>
+                <h2>CURIOSIDADES</h2>
+                <p>
+                    Lo que comenzó como una historia rechazada terminó por convertirse en un fenómeno que estremeció al
+                    planeta.
+                    Entre anécdotas inquietantes y reconocimientos internacionales, la serie dejó una huella imborrable.
+                </p>
+                <div>
+                    <img width="50%" src="./imgs/premios.jpg" alt="personajes">
+                </div>
+                <!-- MODIFICADO!! SE USA DIV EN LUGAR DE BR-->
+
+                <a href="/curiosidades.html">
+                    <img class="botonvermas" src="./imgs/botonvermas-04.png" alt="ver mas">
+                </a>
+            </article>
+        </section>
+        <div class="centrado" style="background-color: #ffffff;">
+            <img style="opacity: 30%;" src="./imgs/squidgamegeometric.png" alt="formas geometricas">
+
+            <div>
+                <img width="50%" src="./imgs/logosquidynetflix-07.png" alt="logos">
+            </div>
+        </div>
+        <hr>
+    </main>
+    <footer>
+        <h2>HABLEMOS ;)</h2>
+        <h3>Email</h3>
+        <a style="color: rgb(42, 130, 202);" href="mailto:soporte@squidgame.com">soporte@squidgame.com</a>
+
+        <h3>Social</h3>
+        <div>
+            <!-- Linkea a pagina general -->
+            <a href="https://www.instagram.com">
+                <img class="social" src="./imgs/ig.png" alt="logo ig">
+            </a>
+            <a href="https://www.facebook.com">
+                <img class="social" src="./imgs/fb.png" alt="logo fb">
+            </a>
+            <a href="https://www.whatsapp.com">
+                <img class="social" src="./imgs/whatsapp.png" alt="logo whatsapp">
+            </a>
+        </div>
+
+        <h3>Newsletter</h3>
+        <!-- Proximamente jaja-->
+        <a href="">
+            <img width="200px" src="./imgs/botonsuscribir-08.png" alt="boton">
+        </a>
+    </footer>
+</body>
+
+</html>
