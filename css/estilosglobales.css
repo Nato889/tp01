@@ -18,6 +18,9 @@ header {
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding: 20 px;
+    margin: 30 px 15 %
+    border-radius: 20 px
 }
 
 footer {
@@ -51,3 +54,4 @@ footer {
 .derecho {
     text-align: right;
 }
+
